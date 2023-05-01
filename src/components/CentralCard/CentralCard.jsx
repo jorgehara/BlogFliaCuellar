@@ -1,6 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import fliaCuellar from "/images/fliaCuellar.png"
+import fliaCuellar from "/images/fliaCuellar.jpg"
 import "./CentralCard.css";
 
 
@@ -20,7 +20,7 @@ function CentralCard() {
             </Card>
         </section>
       </Container>
-     
+
     </>
   );
 }

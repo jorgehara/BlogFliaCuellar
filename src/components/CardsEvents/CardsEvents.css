@@ -1,0 +1,38 @@
+.card-image {
+  position: relative;
+  width: 282px;
+  height: 250px;
+  overflow: hidden;
+}
+.card:hover .blur-out {
+  filter: blur(0);
+  opacity: 1;
+  background-color: rgba(0, 242, 0, 0.64); /* Background verde claro */
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.card-image .card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.card-image:hover img {
+  filter: blur(3px);
+}
+
+.card-image:hover .card-overlay {
+  opacity: 1;
+}
+

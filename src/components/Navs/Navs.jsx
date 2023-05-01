@@ -13,7 +13,7 @@ function Navs() {
       {["sm"].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="">
           <Container fluid>
-            <Navbar.Brand href="#" className="text-decoration-underline fw-bold">Flia Cuellar</Navbar.Brand>
+            <Navbar.Brand href="#" className="text-decoration-underline fw-bold">Ministerio ELIM</Navbar.Brand>
             <ButtonSubs className="" />
 
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -64,6 +64,21 @@ function Navs() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav.Link href="#action1">
+                Cultos
+                </Nav.Link>
+                <Nav.Link href="#action1">
+                Apoyo Escolar
+                </Nav.Link>
+                <Nav.Link href="#action1">
+                Taller de Coreagrafía y Baile
+                </Nav.Link>
+                <Nav.Link href="#action1">
+                Grupo de Exploradores Adolescentes
+                </Nav.Link>
+                <Nav.Link href="#action1">
+                Escuelita Bíblica para Niños Arca de Noe y Pequeños Exploradores
+                </Nav.Link>
                 <Nav.Link href="#action1">
                     <xml version="1.0"  />
                     <svg

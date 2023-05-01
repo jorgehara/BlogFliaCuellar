@@ -1,7 +1,9 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import "./Texts.css";
-import fliaCuellar from "/images/fliaCuellar.png"
+import MinisterioElimBa from "/images/MinisterioElimBa.jpg"
+import { CardsEvents } from "../CardsEvents/CardsEvents.jsx"
+
 
 export const Texts = () => {
   return (
@@ -20,7 +22,7 @@ export const Texts = () => {
         <Card className="text-center ">
           <Card.Body >
           <Card.Header>
-          <Card.Title className="tit-Igle">Iglesia ELIM</Card.Title>
+          <Card.Title className="tit-Igle">Ministerio ELIM</Card.Title>
 
           </Card.Header>
             <Card.Text className="fw-bold text-align-center fs-6" >
@@ -28,8 +30,19 @@ export const Texts = () => {
             </Card.Text>
           </Card.Body>
           <Card className="cardImg">
-              <Card.Img variant="end" src={fliaCuellar}/>
+              <Card.Img variant="end" src={MinisterioElimBa}/>
           </Card>
+        </Card>
+        <Card className="text-center ">
+          <Card.Body >
+          <Card.Header>
+          <Card.Title className="tit-Igle">¿Cómo puedo descubrir y perseguir el diseño de Dios?
+          </Card.Title>
+          </Card.Header>
+          </Card.Body>
+
+          <CardsEvents/>
+
         </Card>
       </Container>
     </>
